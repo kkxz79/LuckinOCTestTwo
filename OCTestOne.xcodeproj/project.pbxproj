@@ -167,6 +167,7 @@
 				9B88FF1521390EC9006863D8 /* Sources */,
 				9B88FF1621390EC9006863D8 /* Frameworks */,
 				9B88FF1721390EC9006863D8 /* Resources */,
+				BE1CE372AE5FA0F6222A2BCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +284,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		BE1CE372AE5FA0F6222A2BCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OCTestOne/Pods-OCTestOne-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/LuckinTimeDate/LuckinTimeDate.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LuckinTimeDate.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCTestOne/Pods-OCTestOne-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C8CD1EF42C7CDF0440F97DED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

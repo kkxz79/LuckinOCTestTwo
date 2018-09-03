@@ -14,21 +14,31 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - LuckinTimeDate (0.0.1)
+  - LuckinTimeDate (0.0.2)
+  - Masonry (1.1.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
 
 DEPENDENCIES:
   - AFNetworking
-  - LuckinTimeDate (~> 0.0.1)
+  - LuckinTimeDate (~> 0.0.2)
+  - Masonry
+  - SDWebImage
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - LuckinTimeDate
+    - Masonry
+    - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  LuckinTimeDate: 3714287eaf896a4e1b3966f402b85b122df484e7
+  LuckinTimeDate: a29cdedde36777e74a87908d213a0475884a5a50
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
-PODFILE CHECKSUM: 92d671d24810a8fc06d11072d391b9759145cc8d
+PODFILE CHECKSUM: d082e8d58a0bdf2bea535fcc8366a72616f45919
 
 COCOAPODS: 1.5.3
