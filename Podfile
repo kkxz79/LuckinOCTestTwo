@@ -4,5 +4,7 @@ inhibit_all_warnings!
 
 target:"OCTestOne" do
   pod 'AFNetworking'
+  pod 'Masonry'
+  pod 'SDWebImage'
   pod 'LuckinTimeDate','~>0.0.2'
 end
