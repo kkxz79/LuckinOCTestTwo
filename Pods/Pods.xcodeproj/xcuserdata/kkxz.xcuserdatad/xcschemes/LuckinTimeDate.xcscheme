@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D1C636FD893BE632232DE6F297CFD11"
-               BlueprintName = "Pods-OCTestOne"
+               BlueprintIdentifier = "211EE98D599FC4534D3137B9D3AF13B9"
+               BlueprintName = "LuckinTimeDate"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-OCTestOne.a">
+               BuildableName = "libLuckinTimeDate.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

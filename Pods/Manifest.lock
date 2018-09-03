@@ -14,17 +14,21 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - LuckinTimeDate (0.0.1)
 
 DEPENDENCIES:
   - AFNetworking
+  - LuckinTimeDate (~> 0.0.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - LuckinTimeDate
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  LuckinTimeDate: 3714287eaf896a4e1b3966f402b85b122df484e7
 
-PODFILE CHECKSUM: bf6a72bf0ce01565ba756425692d3db00c8f2837
+PODFILE CHECKSUM: 92d671d24810a8fc06d11072d391b9759145cc8d
 
 COCOAPODS: 1.5.3

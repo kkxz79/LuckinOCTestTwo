@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import <LuckinTimeDate/LuckinTimeDate.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ViewController * vc = [[ViewController alloc] init];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    
+    LuckinBaseManager * timDate = [[LuckinBaseManager alloc] init];
+    NSTimeInterval timeInterval = 1234567890;
+    NSString * time = [timDate changeToStandardTime:timeInterval];
+    NSLog(@"time is ------ %@",time);
+    
     return YES;
 }
 
