@@ -16,6 +16,7 @@
 		9B88FF2C21390ED2006863D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF2B21390ED2006863D8 /* main.m */; };
 		9B88FF3621390ED2006863D8 /* OCTestOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF3521390ED2006863D8 /* OCTestOneTests.m */; };
 		9B88FF4121390ED2006863D8 /* OCTestOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF4021390ED2006863D8 /* OCTestOneUITests.m */; };
+		9BE2E1F7213CDF7E0059B176 /* ImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2E1F5213CDF7E0059B176 /* ImageCollectionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		9B88FF3C21390ED2006863D8 /* OCTestOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCTestOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B88FF4021390ED2006863D8 /* OCTestOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTestOneUITests.m; sourceTree = "<group>"; };
 		9B88FF4221390ED2006863D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE2E1F5213CDF7E0059B176 /* ImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionCell.m; sourceTree = "<group>"; };
+		9BE2E1F6213CDF7E0059B176 /* ImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionCell.h; sourceTree = "<group>"; };
 		EA8003EF99F521BCA3723576 /* Pods-OCTestOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTestOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCTestOne/Pods-OCTestOne.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +132,8 @@
 				9B88FF1D21390ECA006863D8 /* AppDelegate.m */,
 				9B88FF1F21390ECA006863D8 /* ViewController.h */,
 				9B88FF2021390ECA006863D8 /* ViewController.m */,
+				9BE2E1F6213CDF7E0059B176 /* ImageCollectionCell.h */,
+				9BE2E1F5213CDF7E0059B176 /* ImageCollectionCell.m */,
 				9B88FF2221390ECA006863D8 /* Main.storyboard */,
 				9B88FF2521390ED2006863D8 /* Assets.xcassets */,
 				9B88FF2721390ED2006863D8 /* LaunchScreen.storyboard */,
@@ -289,15 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OCTestOne/Pods-OCTestOne-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/LuckinTimeDate/LuckinTimeDate.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LuckinTimeDate.bundle",
 			);
@@ -311,15 +312,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-OCTestOne-checkManifestLockResult.txt",
 			);
@@ -338,6 +335,7 @@
 				9B88FF2121390ECA006863D8 /* ViewController.m in Sources */,
 				9B88FF2C21390ED2006863D8 /* main.m in Sources */,
 				9B88FF1E21390ECA006863D8 /* AppDelegate.m in Sources */,
+				9BE2E1F7213CDF7E0059B176 /* ImageCollectionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
