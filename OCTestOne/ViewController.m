@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Masonry.h"
 #import "ImageCollectionCell.h"
+#import "LuckinURLSessionViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property(nonatomic,strong)UICollectionViewFlowLayout * layout;
@@ -22,10 +23,17 @@
     [super viewDidLoad];
     self.title = @"首页";
     self.view.backgroundColor = [UIColor whiteColor];
+    UIBarButtonItem * barButton = [[UIBarButtonItem alloc] initWithTitle:@"Session" style:UIBarButtonItemStylePlain target:self action:@selector(rightButtonAction)];
+    self.navigationItem.rightBarButtonItem = barButton;
     [self createSubViews];
     [self createAutoLayout];
 }
 
+-(void)rightButtonAction
+{
+    LuckinURLSessionViewController * sessionVC = [[LuckinURLSessionViewController alloc] init];
+    [self.navigationController pushViewController:sessionVC animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

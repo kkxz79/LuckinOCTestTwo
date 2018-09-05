@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		288BD20BD46092546282780F /* libPods-OCTestOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E86418B0FA1756DAE592AD8 /* libPods-OCTestOne.a */; };
+		9B7DF75E213E7114005B7D92 /* tu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DF75D213E7114005B7D92 /* tu.gif */; };
 		9B88FF1E21390ECA006863D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF1D21390ECA006863D8 /* AppDelegate.m */; };
 		9B88FF2121390ECA006863D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF2021390ECA006863D8 /* ViewController.m */; };
 		9B88FF2421390ECA006863D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B88FF2221390ECA006863D8 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 		9B88FF3621390ED2006863D8 /* OCTestOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF3521390ED2006863D8 /* OCTestOneTests.m */; };
 		9B88FF4121390ED2006863D8 /* OCTestOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF4021390ED2006863D8 /* OCTestOneUITests.m */; };
 		9BE2E1F7213CDF7E0059B176 /* ImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2E1F5213CDF7E0059B176 /* ImageCollectionCell.m */; };
+		9BE2E1FA213D346D0059B176 /* LuckinURLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2E1F9213D346D0059B176 /* LuckinURLSessionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 /* Begin PBXFileReference section */
 		5E86418B0FA1756DAE592AD8 /* libPods-OCTestOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCTestOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B246D47089ED15C24469D2 /* Pods-OCTestOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTestOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCTestOne/Pods-OCTestOne.release.xcconfig"; sourceTree = "<group>"; };
+		9B7DF75D213E7114005B7D92 /* tu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tu.gif; sourceTree = "<group>"; };
 		9B88FF1921390EC9006863D8 /* OCTestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B88FF1C21390ECA006863D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B88FF1D21390ECA006863D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +60,8 @@
 		9B88FF4221390ED2006863D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BE2E1F5213CDF7E0059B176 /* ImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionCell.m; sourceTree = "<group>"; };
 		9BE2E1F6213CDF7E0059B176 /* ImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionCell.h; sourceTree = "<group>"; };
+		9BE2E1F8213D346D0059B176 /* LuckinURLSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckinURLSessionViewController.h; sourceTree = "<group>"; };
+		9BE2E1F9213D346D0059B176 /* LuckinURLSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckinURLSessionViewController.m; sourceTree = "<group>"; };
 		EA8003EF99F521BCA3723576 /* Pods-OCTestOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTestOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCTestOne/Pods-OCTestOne.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,10 +133,13 @@
 		9B88FF1B21390ECA006863D8 /* OCTestOne */ = {
 			isa = PBXGroup;
 			children = (
+				9B7DF75D213E7114005B7D92 /* tu.gif */,
 				9B88FF1C21390ECA006863D8 /* AppDelegate.h */,
 				9B88FF1D21390ECA006863D8 /* AppDelegate.m */,
 				9B88FF1F21390ECA006863D8 /* ViewController.h */,
 				9B88FF2021390ECA006863D8 /* ViewController.m */,
+				9BE2E1F8213D346D0059B176 /* LuckinURLSessionViewController.h */,
+				9BE2E1F9213D346D0059B176 /* LuckinURLSessionViewController.m */,
 				9BE2E1F6213CDF7E0059B176 /* ImageCollectionCell.h */,
 				9BE2E1F5213CDF7E0059B176 /* ImageCollectionCell.m */,
 				9B88FF2221390ECA006863D8 /* Main.storyboard */,
@@ -269,6 +277,7 @@
 				9B88FF2921390ED2006863D8 /* LaunchScreen.storyboard in Resources */,
 				9B88FF2621390ED2006863D8 /* Assets.xcassets in Resources */,
 				9B88FF2421390ECA006863D8 /* Main.storyboard in Resources */,
+				9B7DF75E213E7114005B7D92 /* tu.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +343,7 @@
 			files = (
 				9B88FF2121390ECA006863D8 /* ViewController.m in Sources */,
 				9B88FF2C21390ED2006863D8 /* main.m in Sources */,
+				9BE2E1FA213D346D0059B176 /* LuckinURLSessionViewController.m in Sources */,
 				9B88FF1E21390ECA006863D8 /* AppDelegate.m in Sources */,
 				9BE2E1F7213CDF7E0059B176 /* ImageCollectionCell.m in Sources */,
 			);
