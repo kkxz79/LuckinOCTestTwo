@@ -17,6 +17,7 @@
 		9B88FF2C21390ED2006863D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF2B21390ED2006863D8 /* main.m */; };
 		9B88FF3621390ED2006863D8 /* OCTestOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF3521390ED2006863D8 /* OCTestOneTests.m */; };
 		9B88FF4121390ED2006863D8 /* OCTestOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF4021390ED2006863D8 /* OCTestOneUITests.m */; };
+		9BB8E69A213FC33C00FDC595 /* LuckinAFNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8E699213FC33C00FDC595 /* LuckinAFNViewController.m */; };
 		9BE2E1F7213CDF7E0059B176 /* ImageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2E1F5213CDF7E0059B176 /* ImageCollectionCell.m */; };
 		9BE2E1FA213D346D0059B176 /* LuckinURLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2E1F9213D346D0059B176 /* LuckinURLSessionViewController.m */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,8 @@
 		9B88FF3C21390ED2006863D8 /* OCTestOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCTestOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B88FF4021390ED2006863D8 /* OCTestOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTestOneUITests.m; sourceTree = "<group>"; };
 		9B88FF4221390ED2006863D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB8E698213FC33C00FDC595 /* LuckinAFNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckinAFNViewController.h; sourceTree = "<group>"; };
+		9BB8E699213FC33C00FDC595 /* LuckinAFNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckinAFNViewController.m; sourceTree = "<group>"; };
 		9BE2E1F5213CDF7E0059B176 /* ImageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionCell.m; sourceTree = "<group>"; };
 		9BE2E1F6213CDF7E0059B176 /* ImageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionCell.h; sourceTree = "<group>"; };
 		9BE2E1F8213D346D0059B176 /* LuckinURLSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckinURLSessionViewController.h; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 				9B88FF2021390ECA006863D8 /* ViewController.m */,
 				9BE2E1F8213D346D0059B176 /* LuckinURLSessionViewController.h */,
 				9BE2E1F9213D346D0059B176 /* LuckinURLSessionViewController.m */,
+				9BB8E698213FC33C00FDC595 /* LuckinAFNViewController.h */,
+				9BB8E699213FC33C00FDC595 /* LuckinAFNViewController.m */,
 				9BE2E1F6213CDF7E0059B176 /* ImageCollectionCell.h */,
 				9BE2E1F5213CDF7E0059B176 /* ImageCollectionCell.m */,
 				9B88FF2221390ECA006863D8 /* Main.storyboard */,
@@ -343,6 +348,7 @@
 			files = (
 				9B88FF2121390ECA006863D8 /* ViewController.m in Sources */,
 				9B88FF2C21390ED2006863D8 /* main.m in Sources */,
+				9BB8E69A213FC33C00FDC595 /* LuckinAFNViewController.m in Sources */,
 				9BE2E1FA213D346D0059B176 /* LuckinURLSessionViewController.m in Sources */,
 				9B88FF1E21390ECA006863D8 /* AppDelegate.m in Sources */,
 				9BE2E1F7213CDF7E0059B176 /* ImageCollectionCell.m in Sources */,

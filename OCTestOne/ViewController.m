@@ -10,11 +10,17 @@
 #import "Masonry.h"
 #import "ImageCollectionCell.h"
 #import "LuckinURLSessionViewController.h"
+#import "LuckinAFNViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property(nonatomic,strong)UICollectionViewFlowLayout * layout;
 @property(nonatomic,strong)UICollectionView * collectionView;
 @property(nonatomic,strong)NSArray * imageArray;
+
+@property(nonatomic,strong)UIButton * buttonOne;
+@property(nonatomic,strong)UIButton * buttonTwo;
+@property(nonatomic,strong)UIButton * buttonThree;
+
 @end
 
 @implementation ViewController
@@ -44,12 +50,29 @@
     [self.view addSubview:self.collectionView];
     //注册Cell类，否则会崩溃
     [self.collectionView registerClass:[ImageCollectionCell class] forCellWithReuseIdentifier:@"MyCollectionViewCell"];
+    
+    [self.view addSubview: self.buttonOne];
+    [self.view addSubview: self.buttonTwo];
+    [self.view addSubview: self.buttonThree];
+    
 }
 -(void)createAutoLayout
 {
-    __weak ViewController * myself = self;
+     __weak __typeof(self)myself = self;
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(myself.view).with.insets(UIEdgeInsetsMake(0.0f, 0.0f, 0.0f, 0.0f));
+        make.edges.equalTo(myself.view).with.insets(UIEdgeInsetsMake(0.0f, 0.0f, 100.0f, 0.0f));
+    }];
+    [self.buttonOne mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(myself.collectionView.mas_bottom).offset(25.0f);
+        make.centerX.mas_equalTo(myself.view.mas_centerX);
+    }];
+    [self.buttonTwo mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(myself.buttonOne.mas_top);
+        make.right.mas_equalTo(myself.buttonOne.mas_left).offset(-40.0f);
+    }];
+    [self.buttonThree mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(myself.buttonOne.mas_top);
+        make.left.mas_equalTo(myself.buttonOne.mas_right).offset(40.0f);
     }];
 }
 
@@ -150,6 +173,21 @@
     return CGSizeMake(normalSize, 0.0f);
 }
 
+#pragma mark - private methods
+-(void)afnClick
+{
+    LuckinAFNViewController * afnVC = [[LuckinAFNViewController alloc] init];
+    [self.navigationController pushViewController:afnVC animated:YES];
+}
+-(void)customOneClick
+{
+    
+}
+-(void)customTwoClick
+{
+    
+}
+
 #pragma mark - lazy init
 @synthesize layout = _layout;
 -(UICollectionViewFlowLayout *)layout
@@ -194,6 +232,45 @@
                         ];
     }
     return _imageArray;
+}
+
+@synthesize buttonOne = _buttonOne;
+-(UIButton *)buttonOne
+{
+    if(_buttonOne == nil){
+        _buttonOne = [UIButton buttonWithType:UIButtonTypeSystem];
+        [_buttonOne setTitle:@"AFN" forState:UIControlStateNormal];
+        [_buttonOne.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
+        [_buttonOne setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+        [_buttonOne addTarget:self action:@selector(afnClick) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _buttonOne;
+}
+
+@synthesize buttonTwo = _buttonTwo;
+-(UIButton *)buttonTwo
+{
+    if(_buttonTwo == nil){
+        _buttonTwo = [UIButton buttonWithType:UIButtonTypeSystem];
+        [_buttonTwo setTitle:@"CustomOne" forState:UIControlStateNormal];
+        [_buttonTwo.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
+        [_buttonTwo setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+        [_buttonTwo addTarget:self action:@selector(customOneClick) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _buttonTwo;
+}
+
+@synthesize buttonThree = _buttonThree;
+-(UIButton *)buttonThree
+{
+    if(_buttonThree == nil){
+        _buttonThree = [UIButton buttonWithType:UIButtonTypeSystem];
+        [_buttonThree setTitle:@"CustomTwo" forState:UIControlStateNormal];
+        [_buttonThree.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
+        [_buttonThree setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+        [_buttonThree addTarget:self action:@selector(customTwoClick) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _buttonThree;
 }
 
 @end

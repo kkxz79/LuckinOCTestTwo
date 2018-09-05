@@ -552,7 +552,7 @@ didBecomeInputStream:(NSInputStream *)inputStream
 -(UIButton *)textReqButton
 {
     if(_textReqButton == nil){
-        _textReqButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _textReqButton = [UIButton buttonWithType:UIButtonTypeSystem];
         [_textReqButton setTitle:@"文本请求" forState:UIControlStateNormal];
         [_textReqButton.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
         [_textReqButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -564,7 +564,7 @@ didBecomeInputStream:(NSInputStream *)inputStream
 -(UIButton *)picReqButton
 {
     if(_picReqButton == nil){
-        _picReqButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _picReqButton = [UIButton buttonWithType:UIButtonTypeSystem];
         [_picReqButton setTitle:@"图片请求" forState:UIControlStateNormal];
         [_picReqButton.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
         [_picReqButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -576,7 +576,7 @@ didBecomeInputStream:(NSInputStream *)inputStream
 -(UIButton *)picUploadButton
 {
     if(_picUploadButton == nil){
-        _picUploadButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _picUploadButton = [UIButton buttonWithType:UIButtonTypeSystem];
         [_picUploadButton setTitle:@"图片上传" forState:UIControlStateNormal];
         [_picUploadButton.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
         [_picUploadButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -588,7 +588,7 @@ didBecomeInputStream:(NSInputStream *)inputStream
 -(UIButton *)downloadButton
 {
     if(_downloadButton == nil){
-        _downloadButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _downloadButton = [UIButton buttonWithType:UIButtonTypeSystem];
         [_downloadButton setTitle:@"下载任务" forState:UIControlStateNormal];
         [_downloadButton.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
         [_downloadButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -600,7 +600,7 @@ didBecomeInputStream:(NSInputStream *)inputStream
 -(UIButton *)pauseButton
 {
     if(_pauseButton == nil){
-        _pauseButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _pauseButton = [UIButton buttonWithType:UIButtonTypeSystem];
         [_pauseButton setTitle:@"暂停" forState:UIControlStateNormal];
         [_pauseButton.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
         [_pauseButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -612,7 +612,7 @@ didBecomeInputStream:(NSInputStream *)inputStream
 -(UIButton *)startButton
 {
     if(_startButton == nil){
-        _startButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _startButton = [UIButton buttonWithType:UIButtonTypeSystem];
         [_startButton setTitle:@"开始" forState:UIControlStateNormal];
         [_startButton.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
         [_startButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
@@ -624,7 +624,7 @@ didBecomeInputStream:(NSInputStream *)inputStream
 -(UIButton *)cancelButton
 {
     if(_cancelButton == nil){
-        _cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _cancelButton = [UIButton buttonWithType:UIButtonTypeSystem];
         [_cancelButton setTitle:@"取消" forState:UIControlStateNormal];
         [_cancelButton.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
         [_cancelButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
