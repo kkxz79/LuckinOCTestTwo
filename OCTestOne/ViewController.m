@@ -11,6 +11,8 @@
 #import "ImageCollectionCell.h"
 #import "LuckinURLSessionViewController.h"
 #import "LuckinAFNViewController.h"
+#import "LuckinXZNetworkViewController.h"
+
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 @property(nonatomic,strong)UICollectionViewFlowLayout * layout;
@@ -181,8 +183,10 @@
 }
 -(void)customOneClick
 {
-    
+    LuckinXZNetworkViewController * xzNetVC = [[LuckinXZNetworkViewController alloc] init];
+    [self.navigationController pushViewController:xzNetVC animated:YES];
 }
+
 -(void)customTwoClick
 {
     

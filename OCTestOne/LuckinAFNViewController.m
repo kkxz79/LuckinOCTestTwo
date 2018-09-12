@@ -75,7 +75,7 @@
 #pragma mark - private methods
 -(AFHTTPSessionManager*)sharedManager
 {
-    AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
+    AFHTTPSessionManager * manager = [[AFHTTPSessionManager alloc] init];
     manager.operationQueue.maxConcurrentOperationCount = 5;//最大请求并发任务数
     // 请求格式
     // AFHTTPRequestSerializer            二进制格式
