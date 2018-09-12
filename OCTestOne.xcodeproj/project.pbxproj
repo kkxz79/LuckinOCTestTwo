@@ -10,12 +10,6 @@
 		288BD20BD46092546282780F /* libPods-OCTestOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E86418B0FA1756DAE592AD8 /* libPods-OCTestOne.a */; };
 		9B679D7F2148BA67003272AA /* LuckinXZNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B679D7E2148BA67003272AA /* LuckinXZNetworkViewController.m */; };
 		9B7DF75E213E7114005B7D92 /* tu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DF75D213E7114005B7D92 /* tu.gif */; };
-		9B7ED33B2147607E0001E32A /* XZBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7ED33A2147607E0001E32A /* XZBaseRequest.m */; };
-		9B7ED33E214760BC0001E32A /* XZNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7ED33D214760BC0001E32A /* XZNetworkAgent.m */; };
-		9B7ED343214768D50001E32A /* XZNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7ED342214768D50001E32A /* XZNetworkConfig.m */; };
-		9B7ED34721479C620001E32A /* NSData+XZEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7ED34621479C620001E32A /* NSData+XZEncryption.m */; };
-		9B7ED34A21479D160001E32A /* NSString+XZAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7ED34921479D160001E32A /* NSString+XZAES.m */; };
-		9B7ED34D21479E430001E32A /* NSString+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7ED34B21479E430001E32A /* NSString+Hashes.m */; };
 		9B88FF1E21390ECA006863D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF1D21390ECA006863D8 /* AppDelegate.m */; };
 		9B88FF2121390ECA006863D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FF2021390ECA006863D8 /* ViewController.m */; };
 		9B88FF2421390ECA006863D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B88FF2221390ECA006863D8 /* Main.storyboard */; };
@@ -52,18 +46,6 @@
 		9B679D7D2148BA67003272AA /* LuckinXZNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckinXZNetworkViewController.h; sourceTree = "<group>"; };
 		9B679D7E2148BA67003272AA /* LuckinXZNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckinXZNetworkViewController.m; sourceTree = "<group>"; };
 		9B7DF75D213E7114005B7D92 /* tu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tu.gif; sourceTree = "<group>"; };
-		9B7ED3392147607E0001E32A /* XZBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZBaseRequest.h; sourceTree = "<group>"; };
-		9B7ED33A2147607E0001E32A /* XZBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZBaseRequest.m; sourceTree = "<group>"; };
-		9B7ED33C214760BC0001E32A /* XZNetworkAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZNetworkAgent.h; sourceTree = "<group>"; };
-		9B7ED33D214760BC0001E32A /* XZNetworkAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZNetworkAgent.m; sourceTree = "<group>"; };
-		9B7ED341214768D50001E32A /* XZNetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZNetworkConfig.h; sourceTree = "<group>"; };
-		9B7ED342214768D50001E32A /* XZNetworkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZNetworkConfig.m; sourceTree = "<group>"; };
-		9B7ED34521479C620001E32A /* NSData+XZEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+XZEncryption.h"; sourceTree = "<group>"; };
-		9B7ED34621479C620001E32A /* NSData+XZEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+XZEncryption.m"; sourceTree = "<group>"; };
-		9B7ED34821479D160001E32A /* NSString+XZAES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XZAES.h"; sourceTree = "<group>"; };
-		9B7ED34921479D160001E32A /* NSString+XZAES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XZAES.m"; sourceTree = "<group>"; };
-		9B7ED34B21479E430001E32A /* NSString+Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashes.m"; sourceTree = "<group>"; };
-		9B7ED34C21479E430001E32A /* NSString+Hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashes.h"; sourceTree = "<group>"; };
 		9B88FF1921390EC9006863D8 /* OCTestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B88FF1C21390ECA006863D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B88FF1D21390ECA006863D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -132,25 +114,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9B7ED338214760210001E32A /* XZNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				9B7ED3392147607E0001E32A /* XZBaseRequest.h */,
-				9B7ED33A2147607E0001E32A /* XZBaseRequest.m */,
-				9B7ED33C214760BC0001E32A /* XZNetworkAgent.h */,
-				9B7ED33D214760BC0001E32A /* XZNetworkAgent.m */,
-				9B7ED341214768D50001E32A /* XZNetworkConfig.h */,
-				9B7ED342214768D50001E32A /* XZNetworkConfig.m */,
-				9B7ED34521479C620001E32A /* NSData+XZEncryption.h */,
-				9B7ED34621479C620001E32A /* NSData+XZEncryption.m */,
-				9B7ED34821479D160001E32A /* NSString+XZAES.h */,
-				9B7ED34921479D160001E32A /* NSString+XZAES.m */,
-				9B7ED34C21479E430001E32A /* NSString+Hashes.h */,
-				9B7ED34B21479E430001E32A /* NSString+Hashes.m */,
-			);
-			path = XZNetwork;
-			sourceTree = "<group>";
-		};
 		9B88FF1021390EC9006863D8 = {
 			isa = PBXGroup;
 			children = (
@@ -176,7 +139,6 @@
 		9B88FF1B21390ECA006863D8 /* OCTestOne */ = {
 			isa = PBXGroup;
 			children = (
-				9B7ED338214760210001E32A /* XZNetwork */,
 				9B7DF75D213E7114005B7D92 /* tu.gif */,
 				9B88FF1C21390ECA006863D8 /* AppDelegate.h */,
 				9B88FF1D21390ECA006863D8 /* AppDelegate.m */,
@@ -391,17 +353,11 @@
 			files = (
 				9B88FF2121390ECA006863D8 /* ViewController.m in Sources */,
 				9B679D7F2148BA67003272AA /* LuckinXZNetworkViewController.m in Sources */,
-				9B7ED34A21479D160001E32A /* NSString+XZAES.m in Sources */,
 				9B88FF2C21390ED2006863D8 /* main.m in Sources */,
 				9BB8E69A213FC33C00FDC595 /* LuckinAFNViewController.m in Sources */,
 				9BE2E1FA213D346D0059B176 /* LuckinURLSessionViewController.m in Sources */,
-				9B7ED343214768D50001E32A /* XZNetworkConfig.m in Sources */,
 				9B88FF1E21390ECA006863D8 /* AppDelegate.m in Sources */,
 				9BE2E1F7213CDF7E0059B176 /* ImageCollectionCell.m in Sources */,
-				9B7ED33E214760BC0001E32A /* XZNetworkAgent.m in Sources */,
-				9B7ED33B2147607E0001E32A /* XZBaseRequest.m in Sources */,
-				9B7ED34721479C620001E32A /* NSData+XZEncryption.m in Sources */,
-				9B7ED34D21479E430001E32A /* NSString+Hashes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
